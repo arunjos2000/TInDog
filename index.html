@@ -6,14 +6,15 @@
   <title>TinDog</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -209,22 +210,28 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
-
+    <section class="coloured-area" id="cta">
+      <div class="container-fluid">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+      </div>
     </section>
 
 
     <!-- Footer -->
 
-    <footer id="footer">
-
-      <p>© Copyright 2018 TinDog</p>
-
-    </footer>
+    <footer class="white-section" id="footer">
+     <div class="container-fluid">
+       <div class="space">
+       <i class="social-icon fab fa-facebook-f"></i>
+       <i class="social-icon fab fa-twitter"></i>
+       <i class="social-icon fab fa-instagram"></i>
+       <i class="social-icon fas fa-envelope"></i>
+       <br></br>
+       <p>© Copyright 2018 TinDog</p>
+     </div>
+   </footer>
 
 
   </body>
