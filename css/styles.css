@@ -148,6 +148,10 @@ p {
   padding: 100px;
   text-align: center;
 }
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .pricing-column {
   padding: 3% 2%;
 }
@@ -161,6 +165,9 @@ p {
     position: static;
     transform: rotate(0);
   }
+}
+.social-icon{
+  margin: 20px 30px;
 }
 .coloured-area {
     background-color: #ff4c68;
